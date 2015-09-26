@@ -1,0 +1,63 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+.img-logo {
+	margin-top: 10px;
+}
+
+.mid-section  {
+	margin-top: 10px;
+}
+
+.footer-heading {
+
+	color: #BCBBBB;
+}
+
+.name-info {
+	font-weight: thin;
+}
+
+.ruler-inbetween {
+	height: 12px;
+	border: 0;
+	box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width: 767px) {
+	.name-info {
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.name-info2 {
+		font-size: 15px;
+	}
+
+	.img-small {
+		max-width: 70%;
+	}
+
+	.mid-section {
+		max-width: 95%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.img-logo {
+		display: none;
+	}
+
+	.name-info {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.small-orient {
+		text-align: left;
+	}
+}
